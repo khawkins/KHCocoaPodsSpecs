@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Framework2' do |ss|
 
-      ss.dependency 'KHCocoaPodsFramework1'
+      ss.dependency 'KHCocoaPodsFramework1', '~> 1.0'
       ss.source_files = 'KHCocoaPodsFramework2/KHCocoaPodsFramework2/*.{h,m}'
       ss.public_header_files = 'KHCocoaPodsFramework2/KHCocoaPodsFramework2/*.h'
 
