@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name            = "KHCocoaPodsFramework1"
-  s.version         = "1.0.0"
+  s.version         = "1.0.1"
   s.summary         = "Framework1 for KH CocoaPods spec tests"
   s.homepage        = "https://github.com/khawkins/KHCocoaPodsFramework1"
   s.author          = { "Kevin Hawkins" => "khawkins@salesforce.com" }
