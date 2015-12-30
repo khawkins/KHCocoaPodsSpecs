@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
   s.summary         = "Framework1 for KH CocoaPods spec tests"
   s.homepage        = "https://github.com/khawkins/KHCocoaPodsFramework1"
   s.author          = { "Kevin Hawkins" => "khawkins@salesforce.com" }
+  s.license         = 'MIT'
 
   s.platform        = :ios, "8.0"
   s.source          = { :git => "https://github.com/khawkins/KHCocoaPodsFramework1.git",
@@ -12,10 +13,10 @@ Pod::Spec.new do |s|
   s.requires_arc    = true
   s.default_subspec = 'Framework1'
 
-  s.subspec 'Framework1' do |s|
+  s.subspec 'Framework1' do |ss|
 
-      s.source_files = 'KHCocoaPodsFramework1/KHCocoaPodsFramework1/*.{h,m}'
-      s.public_header_files = 'KHCocoaPodsFramework1/KHCocoaPodsFramework1/*.h'
+      ss.source_files = 'KHCocoaPodsFramework1/KHCocoaPodsFramework1/*.{h,m}'
+      ss.public_header_files = 'KHCocoaPodsFramework1/KHCocoaPodsFramework1/*.h'
 
   end
 
